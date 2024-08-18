@@ -1,0 +1,8 @@
+    Y(0) <= NOT(I(2)) AND NOT(I(1)) AND NOT(I(0)) AND En;
+    Y(1) <= NOT(I(2)) AND NOT(I(1)) AND I(0) AND En;
+    Y(2) <= NOT(I(2)) AND I(1) AND NOT(I(0)) AND En;
+    Y(3) <= NOT(I(2)) AND I(1) AND I(0) AND En;
+    Y(4) <= I(2) AND NOT(I(1)) AND NOT(I(0)) AND En;
+    Y(5) <= I(2) AND NOT(I(1)) AND I(0) AND En;
+    Y(6) <= I(2) AND I(1) AND NOT(I(0)) AND En;
+    Y(7) <= I(2) AND I(1) AND I(0) AND En;

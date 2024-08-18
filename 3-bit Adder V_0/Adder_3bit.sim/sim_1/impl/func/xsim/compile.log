@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/impl/func/xsim/TB_Adder_3bit_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sim_1/new/TB_Adder_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Adder_3bit

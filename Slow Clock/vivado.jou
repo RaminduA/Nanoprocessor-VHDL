@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 22:49:12 2023
+# Process ID: 6688
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Slow Clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2916 C:\Users\RAMINDU\Desktop\2nd sem\Computer Organization and Digital Design\Week 10\Lab 9-10\Nanoprocessor\Slow Clock\Slow_Clock.xpr
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Slow Clock/vivado.log
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Slow Clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Slow Clock/Slow_Clock.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_Slow_Clk.tcl
+close_sim

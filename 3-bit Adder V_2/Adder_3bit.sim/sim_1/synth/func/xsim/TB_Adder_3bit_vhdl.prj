@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"TB_Adder_3bit_func_synth.vhd" \
+"../../../../../Adder_3bit.srcs/sim_1/new/TB_Adder_3bit.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 20:02:24 2023
+# Process ID: 7800
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5480 C:\Users\RAMINDU\Desktop\2nd sem\Computer Organization and Digital Design\Week 10\Lab 9-10\Nanoprocessor\Register Bank\Register_Bank.xpr
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/vivado.log
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sim_1/new/TB_RB.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sim_1/new/TB_RB.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_RB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation

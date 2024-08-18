@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Program Counter/Program_Counter.sim/sim_1/impl/timing/xsim/TB_PC_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Program Counter/Program_Counter.srcs/sim_1/new/TB_PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_PC

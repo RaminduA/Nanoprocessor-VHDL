@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSD
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new/TB_SSD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_SSD

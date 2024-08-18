@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  8 15:52:04 2023
+# Process ID: 19792
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9104 C:\Users\RAMINDU\Desktop\2nd sem\Computer Organization and Digital Design\Week 10\Lab 9-10\Nanoprocessor\Register Bank\Register_Bank.xpr
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/vivado.log
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+launch_simulation
+launch_simulation

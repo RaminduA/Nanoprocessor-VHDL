@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 22:32:01 2023
+# Process ID: 4204
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16524 C:\Users\RAMINDU\Desktop\2nd sem\Computer Organization and Digital Design\Week 10\Lab 9-10\Nanoprocessor\7 Segment Display\Display_7_Segment.xpr
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/vivado.log
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new
+file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new
+file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new
+file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new
+file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new
+file mkdir {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new}
+close [ open {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new/TB_SSD.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sim_1/new/TB_SSD.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_SSD.tcl
+close_sim
