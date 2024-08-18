@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"TB_ASU_4bit_func_impl.vhd" \
+"../../../../../ASU_4bit.srcs/sim_1/new/TB_ASU_4bit.vhd" \
+
+# Do not sort compile order
+nosort

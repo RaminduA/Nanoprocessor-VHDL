@@ -1,0 +1,20 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sim_1/new/TB_NP.vhd,1686480958,vhdl,,,,tb_np,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Adder V_1/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd,1686477539,vhdl,,,,adder_3bit,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd,1686476423,vhdl,,,,pc,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd,1686473481,vhdl,,,,asu_4bit,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd,1686477806,vhdl,,,,fa,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd,1686478835,vhdl,,,,ssd,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd,1686476687,vhdl,,,,id,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Program ROM/Program_ROM.srcs/sources_1/new/PR.vhd,1686473347,vhdl,,,,pr,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Decoder_3_to_8.vhd,1686475135,vhdl,,,,decoder_3_to_8,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd,1686468613,vhdl,,,,rb,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd,1686474642,vhdl,,,,reg_4bit,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Slow Clock/Slow_Clock.srcs/sources_1/new/SlwClk.vhd,1686475408,vhdl,,,,slow_clk,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd,1686468091,vhdl,,,,np,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd,1686479253,vhdl,,,,mux_2way_3bit,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd,1686479571,vhdl,,,,mux_2way_4bit,,,,,,,,
+C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd,1686480848,vhdl,,,,mux_8way_4bit,,,,,,,,

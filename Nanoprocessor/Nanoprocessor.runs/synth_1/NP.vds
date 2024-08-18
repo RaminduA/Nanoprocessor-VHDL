@@ -1,0 +1,452 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jun  9 17:28:31 2023
+# Process ID: 3292
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1
+# Command line: vivado.exe -log NP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NP.tcl
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1/NP.vds
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source NP.tcl -notrace
+Command: synth_design -top NP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21164 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 436.098 ; gain = 95.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NP' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:14]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Slow Clock/Slow_Clock.srcs/sources_1/new/SlwClk.vhd:4' bound to instance 'Slow_Clk_0' of component 'Slow_Clk' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Slow Clock/Slow_Clock.srcs/sources_1/new/SlwClk.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Slow Clock/Slow_Clock.srcs/sources_1/new/SlwClk.vhd:9]
+INFO: [Synth 8-3491] module 'SSD' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd:5' bound to instance 'SSD_0' of component 'SSD' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'SSD' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (2#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd:10]
+INFO: [Synth 8-3491] module 'ID' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd:4' bound to instance 'ID_0' of component 'ID' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd:17]
+WARNING: [Synth 8-614] signal 'Ins' is read in the process but is not in the sensitivity list [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'ID' (3#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd:17]
+INFO: [Synth 8-3491] module 'RB' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:4' bound to instance 'RB_0' of component 'RB' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'RB' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:19]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Decoder_3_to_8.vhd:5' bound to instance 'Dec' of component 'Decoder_3_to_8' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Decoder_3_to_8.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (4#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Decoder_3_to_8.vhd:11]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_0' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:12]
+WARNING: [Synth 8-614] signal 'En' is read in the process but is not in the sensitivity list [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Reg_4bit' (5#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:12]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_1' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:52]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_2' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:60]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_3' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:68]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_4' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:76]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_5' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:84]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_6' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:92]
+INFO: [Synth 8-3491] module 'Reg_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd:4' bound to instance 'Reg_7' of component 'Reg_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'RB' (6#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd:19]
+INFO: [Synth 8-3491] module 'PR' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Program ROM/Program_ROM.srcs/sources_1/new/PR.vhd:5' bound to instance 'PR_0' of component 'PR' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'PR' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Program ROM/Program_ROM.srcs/sources_1/new/PR.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'PR' (7#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Program ROM/Program_ROM.srcs/sources_1/new/PR.vhd:10]
+INFO: [Synth 8-3491] module 'PC' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd:4' bound to instance 'PC_0' of component 'PC' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd:11]
+WARNING: [Synth 8-614] signal 'Rst' is read in the process but is not in the sensitivity list [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'PC' (8#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd:11]
+INFO: [Synth 8-3491] module 'MUX_8way_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd:4' bound to instance 'MUX_8way_4bit_A' of component 'MUX_8way_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'MUX_8way_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_8way_4bit' (9#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd:12]
+INFO: [Synth 8-3491] module 'MUX_8way_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd:4' bound to instance 'MUX_8way_4bit_B' of component 'MUX_8way_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:110]
+INFO: [Synth 8-3491] module 'MUX_2way_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd:4' bound to instance 'MUX_2way_4bit_0' of component 'MUX_2way_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'MUX_2way_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2way_4bit' (10#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd:12]
+INFO: [Synth 8-3491] module 'MUX_2way_3bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd:4' bound to instance 'MUX_2way_3bit_0' of component 'MUX_2way_3bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'MUX_2way_3bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_2way_3bit' (11#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd:12]
+INFO: [Synth 8-3491] module 'ASU_4bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:4' bound to instance 'ASU_4bit_0' of component 'ASU_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'ASU_4bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:15]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_0' of component 'FA' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'FA' (12#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd:13]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_1' of component 'FA' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:29]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_2' of component 'FA' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:30]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd:4' bound to instance 'FA_3' of component 'FA' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'ASU_4bit' (13#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd:15]
+INFO: [Synth 8-3491] module 'Adder_3bit' declared at 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder V_1/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd:4' bound to instance 'Adder_3bit_0' of component 'Adder_3bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'Adder_3bit' [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder V_1/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Adder_3bit' (14#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder V_1/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd:9]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:123]
+INFO: [Synth 8-256] done synthesizing module 'NP' (15#1) [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd:14]
+WARNING: [Synth 8-3917] design NP has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NP has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NP has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NP has port Anode[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 491.074 ; gain = 150.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 491.074 ; gain = 150.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 491.074 ; gain = 150.117
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/constrs_1/imports/Week 10/Basys3Labs.xdc]
+Finished Parsing XDC File [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/constrs_1/imports/Week 10/Basys3Labs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/constrs_1/imports/Week 10/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/NP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/NP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 822.453 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 822.453 ; gain = 481.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 822.453 ; gain = 481.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 822.453 ; gain = 481.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "Count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Clk_Status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "SSD_LUT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Load" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "X" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Z" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Instructions" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Zero" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 822.453 ; gain = 481.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  17 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module SSD 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input      7 Bit        Muxes := 1     
+Module ID 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module Decoder_3_to_8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+Module Reg_4bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module PR 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module MUX_2way_4bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module MUX_2way_3bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module FA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module ASU_4bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Adder_3bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "Slow_Clk_0/Count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk_0/Clk_Status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design NP has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design NP has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design NP has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design NP has port Anode[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_0/Q_reg[2]' (FDR) to 'RB_0/Reg_0/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_0/Q_reg[3]' (FDR) to 'RB_0/Reg_0/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_0/Q_reg[1]' (FDR) to 'RB_0/Reg_0/Q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB_0/Reg_0/Q_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (RB_0/Reg_0/Q_reg[0]) is unused and will be removed from module NP.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 822.453 ; gain = 481.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 822.453 ; gain = 481.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 835.941 ; gain = 494.984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_5/Q_reg[1]' (FDRE) to 'RB_0/Reg_6/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_4/Q_reg[1]' (FDRE) to 'RB_0/Reg_6/Q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_1/Q_reg[1]' (FDRE) to 'RB_0/Reg_6/Q_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB_0/Reg_6/Q_reg[1] )
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_5/Q_reg[0]' (FDRE) to 'RB_0/Reg_6/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_4/Q_reg[0]' (FDRE) to 'RB_0/Reg_6/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_6/Q_reg[0]' (FDRE) to 'RB_0/Reg_1/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_5/Q_reg[3]' (FDRE) to 'RB_0/Reg_6/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_4/Q_reg[3]' (FDRE) to 'RB_0/Reg_6/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_6/Q_reg[3]' (FDRE) to 'RB_0/Reg_1/Q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_5/Q_reg[2]' (FDRE) to 'RB_0/Reg_6/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_4/Q_reg[2]' (FDRE) to 'RB_0/Reg_6/Q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'RB_0/Reg_6/Q_reg[2]' (FDRE) to 'RB_0/Reg_1/Q_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB_0/Reg_1/Q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB_0/Reg_1/Q_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB_0/Reg_1/Q_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (RB_0/Reg_6/Q_reg[1]) is unused and will be removed from module NP.
+WARNING: [Synth 8-3332] Sequential element (RB_0/Reg_1/Q_reg[0]) is unused and will be removed from module NP.
+WARNING: [Synth 8-3332] Sequential element (RB_0/Reg_1/Q_reg[3]) is unused and will be removed from module NP.
+WARNING: [Synth 8-3332] Sequential element (RB_0/Reg_1/Q_reg[2]) is unused and will be removed from module NP.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |     2|
+|5     |LUT3   |     8|
+|6     |LUT4   |    18|
+|7     |LUT5   |    14|
+|8     |LUT6   |    15|
+|9     |FDCE   |     3|
+|10    |FDRE   |    46|
+|11    |IBUF   |     2|
+|12    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+-----------+------+
+|      |Instance     |Module     |Cells |
++------+-------------+-----------+------+
+|1     |top          |           |   135|
+|2     |  PC_0       |PC         |    33|
+|3     |  RB_0       |RB         |    28|
+|4     |    Reg_2    |Reg_4bit   |     4|
+|5     |    Reg_3    |Reg_4bit_0 |     4|
+|6     |    Reg_7    |Reg_4bit_1 |    20|
+|7     |  Slow_Clk_0 |Slow_Clk   |    54|
++------+-------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 836.758 ; gain = 164.422
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 836.758 ; gain = 495.801
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+100 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 836.758 ; gain = 507.910
+INFO: [Common 17-1381] The checkpoint 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1/NP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NP_utilization_synth.rpt -pb NP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 836.758 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  9 17:29:24 2023...

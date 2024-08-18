@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 23:27:02 2023
+# Process ID: 6352
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24556 C:\Users\RAMINDU\Desktop\2nd sem\Computer Organization and Digital Design\Week 10\Lab 9-10\Nanoprocessor\Nanoprocessor\Nanoprocessor.xpr
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/vivado.log
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.xpr}
+launch_simulation
+open_wave_config {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sim_1/imports/Nanoprocessor/TB_NP_behav.wcfg}
+source TB_NP.tcl
+update_compile_order -fileset sources_1
+close_sim

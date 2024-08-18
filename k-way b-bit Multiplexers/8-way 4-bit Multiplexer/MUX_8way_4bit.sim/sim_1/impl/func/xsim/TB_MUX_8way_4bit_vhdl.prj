@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"TB_MUX_8way_4bit_func_impl.vhd" \
+"../../../../../MUX_8way_4bit.srcs/sim_1/new/TB_MUX_8way_4bit.vhd" \
+
+# Do not sort compile order
+nosort

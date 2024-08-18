@@ -1,0 +1,7 @@
+Running: xsim.dir/TB_ASU_4bit_func_synth/xsimk.exe -simmode gui -wdb TB_ASU_4bit_func_synth.wdb -simrunnum 0 -socket 53376
+Design successfully loaded
+Design Loading Memory Usage: 6528 KB (Peak: 6528 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7216 KB (Peak: 7216 KB)
+Simulation CPU Usage: 15 ms

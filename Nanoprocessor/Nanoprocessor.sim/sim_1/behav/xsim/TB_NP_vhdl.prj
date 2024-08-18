@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Adder V_1/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Decoder_3_to_8.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd" \
+"../../../../../k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd" \
+"../../../../../k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd" \
+"../../../../../k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/NP.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Program ROM/Program_ROM.srcs/sources_1/new/PR.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Slow Clock/Slow_Clock.srcs/sources_1/new/SlwClk.vhd" \
+"../../../../Nanoprocessor.srcs/sim_1/new/TB_NP.vhd" \
+
+# Do not sort compile order
+nosort

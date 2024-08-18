@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_NP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_NP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="401157185fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="117"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/TB_NP/Clk_TB" type="logic">
+      <obj_property name="ElementShortName">Clk_TB</obj_property>
+      <obj_property name="ObjectShortName">Clk_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/Disp_TB" type="array">
+      <obj_property name="ElementShortName">Disp_TB[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Disp_TB[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/PC_0/S" type="array">
+      <obj_property name="ElementShortName">S[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/LED_TB" type="array">
+      <obj_property name="ElementShortName">LED_TB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LED_TB[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/Anode_TB" type="array">
+      <obj_property name="ElementShortName">Anode_TB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Anode_TB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/Rst_TB" type="logic">
+      <obj_property name="ElementShortName">Rst_TB</obj_property>
+      <obj_property name="ObjectShortName">Rst_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/Zero_TB" type="logic">
+      <obj_property name="ElementShortName">Zero_TB</obj_property>
+      <obj_property name="ObjectShortName">Zero_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/Ovfl_TB" type="logic">
+      <obj_property name="ElementShortName">Ovfl_TB</obj_property>
+      <obj_property name="ObjectShortName">Ovfl_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_0" type="array">
+      <obj_property name="ElementShortName">DB_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_1" type="array">
+      <obj_property name="ElementShortName">DB_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_2" type="array">
+      <obj_property name="ElementShortName">DB_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_3" type="array">
+      <obj_property name="ElementShortName">DB_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_4" type="array">
+      <obj_property name="ElementShortName">DB_4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_5" type="array">
+      <obj_property name="ElementShortName">DB_5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_6" type="array">
+      <obj_property name="ElementShortName">DB_6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/DB_7" type="array">
+      <obj_property name="ElementShortName">DB_7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DB_7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_NP/UUT/RB_0/RegSel" type="array">
+      <obj_property name="ElementShortName">RegSel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegSel[7:0]</obj_property>
+   </wvobject>
+</wave_config>

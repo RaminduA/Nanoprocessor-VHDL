@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jun  9 17:28:31 2023
+# Process ID: 3292
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1
+# Command line: vivado.exe -log NP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NP.tcl
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1/NP.vds
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source NP.tcl -notrace

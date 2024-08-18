@@ -1,0 +1,1867 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 12500
+License: Customer
+
+Current time: 	Tue Jun 06 18:58:40 IST 2023
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 36 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	RAMINDU
+User home directory: C:/Users/RAMINDU
+User working directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/RAMINDU/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/RAMINDU/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/RAMINDU/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/vivado.log
+Vivado journal file location: 	C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/vivado.jou
+Engine tmp dir: 	C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/.Xil/Vivado-12500-MY-ROG
+
+GUI allocated memory:	182 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 595 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 62 MB (+62774kb) [00:00:07]
+// [Engine Memory]: 528 MB (+401750kb) [00:00:07]
+// Opening Vivado Project: C:\Users\RAMINDU\Desktop\2nd sem\Computer Organization and Digital Design\Week 10\Lab 9-10\Nanoprocessor\4-bit Add_Subtract unit\Adder+Subtractor\ASU_4bit.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor' 
+// [GUI Memory]: 66 MB (+904kb) [00:00:08]
+// [Engine Memory]: 579 MB (+26625kb) [00:00:08]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 37 MB. Current time: 6/6/23 6:58:42 PM IST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 676 MB (+70387kb) [00:00:12]
+// Project name: ASU_4bit; location: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 885.406 ; gain = 137.141 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ASU_4bit(Behavioral) (ASU_4bit.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ASU_4bit(Behavioral) (ASU_4bit.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ASU_4bit(Behavioral) (ASU_4bit.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 70 MB (+260kb) [00:00:41]
+// [GUI Memory]: 74 MB (+1033kb) [00:01:56]
+// [GUI Memory]: 78 MB (+454kb) [00:05:40]
+// Elapsed time: 445 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+// [Engine Memory]: 713 MB (+3891kb) [00:08:09]
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 719 MB. GUI used memory: 42 MB. Current time: 6/6/23 7:06:43 PM IST
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.xpr"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Opening Vivado Project: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, G)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank/Register_Bank.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 750 MB (+1547kb) [00:08:27]
+// [GUI Memory]: 86 MB (+4101kb) [00:08:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 757 MB. GUI used memory: 51 MB. Current time: 6/6/23 7:06:59 PM IST
+// Project name: Register_Bank; location: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Register Bank; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RB(Behavioral) (RB.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RB(Behavioral) (RB.vhd), Dec : Decoder_3_to_8(Behavioral) (Decoder_3_to_8.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("RB.vhd", 276, 142); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 57 MB. Current time: 6/6/23 7:11:23 PM IST
+// Elapsed time: 608 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+// Elapsed time: 14 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Elapsed time: 77 seconds
+selectCodeEditor("ASU_4bit.vhd", 282, 215); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+// [GUI Memory]: 91 MB (+506kb) [00:21:06]
+// Elapsed time: 59 seconds
+selectCodeEditor("ASU_4bit.vhd", 100, 283); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 128 seconds
+selectCodeEditor("ASU_4bit.vhd", 146, 62); // cd (w, ch)
+// [GUI Memory]: 100 MB (+4184kb) [00:24:01]
+// Elapsed time: 33 seconds
+selectCodeEditor("ASU_4bit.vhd", 144, 97); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 144, 97, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ASU_4bit.vhd", 257, 145); // cd (w, ch)
+// Elapsed time: 83 seconds
+selectCodeEditor("ASU_4bit.vhd", 363, 113); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 446, 131); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+// [Engine Memory]: 788 MB (+328kb) [00:25:41]
+selectCodeEditor("ASU_4bit.vhd", 124, 133); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 310, 127); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 84, 131); // cd (w, ch)
+// Elapsed time: 52 seconds
+selectCodeEditor("ASU_4bit.vhd", 203, 163); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 124, 166); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("ASU_4bit.vhd", 104, 130); // cd (w, ch)
+// Elapsed time: 69 seconds
+selectCodeEditor("ASU_4bit.vhd", 141, 216); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("ASU_4bit.vhd", 166, 234); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("ASU_4bit.vhd", 173, 127); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 173, 259); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 168, 252); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 181, 227); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("ASU_4bit.vhd", 208, 235); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 305, 234); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("ASU_4bit.vhd", 140, 250); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 138, 167); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 168, 219); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 137, 196); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 151, 178); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 151, 178, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ASU_4bit.vhd", 172, 78); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 145, 231); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 145, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 149, 211); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 149, 211, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 146, 147); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 146, 147, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+// [GUI Memory]: 105 MB (+369kb) [00:30:51]
+// Elapsed time: 31 seconds
+selectCodeEditor("ASU_4bit.vhd", 125, 165); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 243, 211); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 125, 246); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 127, 275); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 127, 162); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 113, 229); // cd (w, ch)
+// [GUI Memory]: 111 MB (+704kb) [00:31:41]
+// Elapsed time: 22 seconds
+selectCodeEditor("ASU_4bit.vhd", 139, 181); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("ASU_4bit.vhd", 137, 112); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 159, 197); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("ASU_4bit.vhd", 82, 126); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 82, 126); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 82, 126, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 49, 213); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 49, 213, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 166, 131); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 95, 213); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 95, 213, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("ASU_4bit.vhd", 53, 231); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 86, 143); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 86, 143, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 54, 238); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 105, 231); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.xpr"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Opening Vivado Project: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, G)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+1974kb) [00:34:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 822 MB. GUI used memory: 68 MB. Current time: 6/6/23 7:32:59 PM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Project name: MUX_2way_4bit; location: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_2way_4bit(Behavioral) (MUX_2way_4bit.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MUX_2way_4bit(Behavioral) (MUX_2way_4bit.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("MUX_2way_4bit.vhd", 173, 267); // cd (w, ch)
+selectCodeEditor("MUX_2way_4bit.vhd", 227, 284); // cd (w, ch)
+typeControlKey((HResource) null, "MUX_2way_4bit.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("ASU_4bit.vhd", 205, 223); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 71, 183); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("ASU_4bit.vhd", 200, 244); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("ASU_4bit.vhd", 125, 247); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 125, 247, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ASU_4bit.vhd", 89, 249); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("ASU_4bit.vhd", 134, 217); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 151, 247); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 151, 247, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 46 seconds
+selectCodeEditor("ASU_4bit.vhd", 158, 232); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 121, 211); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 185, 242); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("ASU_4bit.vhd", 93, 181); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 125, 110); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 125, 247); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 123, 283); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 123, 265); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 70, 199); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("ASU_4bit.vhd", 82, 211); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 299, 202); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 87, 177); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("ASU_4bit.vhd", 52, 284); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 53, 286); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 83, 250); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("ASU_4bit.vhd", 106, 242); // cd (w, ch)
+// Elapsed time: 122 seconds
+selectCodeEditor("ASU_4bit.vhd", 194, 229); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 105, 220); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 282, 300); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 212, 244); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 49, 208); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 246, 231); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project ASU_4bit 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 59 seconds
+selectCodeEditor("ASU_4bit.vhd", 70, 268); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("ASU_4bit.vhd", 214, 229); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 829 MB (+1207kb) [00:48:22]
+// Elapsed time: 346 seconds
+selectCodeEditor("ASU_4bit.vhd", 282, 223); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:47:26 2023] Launched synth_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// [GUI Memory]: 125 MB (+481kb) [00:48:58]
+// Elapsed time: 24 seconds
+closeMainWindow("ASU_4bit - [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr] - Vivado 2018.1"); // ch
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ch): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+dismissDialog("Close Project"); // A (ch)
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceItoN.MainWindow_PROCESS_RUNNING_YOU_SURE_YOU_Yes", "Yes"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bv (ch):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 829 MB. GUI used memory: 64 MB. Current time: 6/6/23 7:47:57 PM IST
+// 'b' command handler elapsed time: 5 seconds
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bv (ch)
+// Elapsed time: 25 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Opening Vivado Project: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, G)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// Tcl Message: open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor' 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: ASU_4bit; location: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ch): Launch Runs: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:48:42 2023] Launched synth_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:49:17 2023] Launched impl_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/impl_1/runme.log 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ch): Implementation Failed: addNotify
+// Elapsed time: 32 seconds
+dismissDialog("Implementation Failed"); // ah (ch)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; opt_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Jun 06 19:49:31 IST 2023 ; 00:00:10 ; Vivado Implementation Defaults (Vivado Implementation 2018) ; Vivado Implementation Default Reports (Vivado Implementation 2018) ; xc7a35tcpg236-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ax (O, ch)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ASU_4bit(Behavioral) (ASU_4bit.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ASU_4bit(Behavioral) (ASU_4bit.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; opt_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Jun 06 19:49:31 IST 2023 ; 00:00:10 ; Vivado Implementation Defaults (Vivado Implementation 2018) ; Vivado Implementation Default Reports (Vivado Implementation 2018) ; xc7a35tcpg236-1 ; Default settings for Implementation.", 1, "opt_design ERROR", 2, false); // ax (O, ch)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; opt_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Jun 06 19:49:31 IST 2023 ; 00:00:10 ; Vivado Implementation Defaults (Vivado Implementation 2018) ; Vivado Implementation Default Reports (Vivado Implementation 2018) ; xc7a35tcpg236-1 ; Default settings for Implementation.", 1); // ax (O, ch)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; opt_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Jun 06 19:49:31 IST 2023 ; 00:00:10 ; Vivado Implementation Defaults (Vivado Implementation 2018) ; Vivado Implementation Default Reports (Vivado Implementation 2018) ; xc7a35tcpg236-1 ; Default settings for Implementation.", 1, "opt_design ERROR", 2, false, false, false, false, false, true); // ax (O, ch) - Double Click
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("ASU_4bit.vhd", 161, 247); // cd (w, ch)
+// Elapsed time: 23 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Design Level, [DRC INBB-3] Black Box Instances: Cell 'FA_0' of type 'FA' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.. ]", 7); // ah (O, ch)
+// Elapsed time: 70 seconds
+selectCodeEditor("ASU_4bit.vhd", 328, 160); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 97 seconds
+selectCodeEditor("ASU_4bit.vhd", 255, 158); // cd (w, ch)
+// Elapsed time: 79 seconds
+selectCodeEditor("ASU_4bit.vhd", 224, 124); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 287, 203); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("ASU_4bit.vhd", 306, 146); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:55:55 2023] Launched synth_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 13 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+// [GUI Memory]: 139 MB (+8537kb) [00:57:57]
+// Elapsed time: 32 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:56:28 2023] Launched impl_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/impl_1/runme.log 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Starting Design Runs"); // bv (ch)
+// [GUI Memory]: 148 MB (+1791kb) [00:58:02]
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 161 MB (+5407kb) [00:58:23]
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Implementation Failed: addNotify
+// Elapsed time: 32 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ch)
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ASU_4bit(Behavioral) (ASU_4bit.vhd), FA_0 : xil_defaultlib.FA]", 2, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 27 seconds
+setFileChooser("C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Full Adder/Full_Adder.srcs/sources_1/new/FA.vhd");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 15 seconds
+setFileChooser("C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Half Adder/Half_Adder.srcs/sources_1/new/HA.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 54 seconds
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// c (ch): Add Sources: addNotify
+// bv (c):  Add Sources  : addNotify
+// Tcl Message: add_files -norecurse -scan_for_includes {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Full Adder/Full_Adder.srcs/sources_1/new/FA.vhd} {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Half Adder/Half_Adder.srcs/sources_1/new/HA.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Full Adder/Full_Adder.srcs/sources_1/new/FA.vhd} {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Half Adder/Half_Adder.srcs/sources_1/new/HA.vhd}} 
+dismissDialog("Add Sources"); // bv (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:58:38 2023] Launched synth_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: [Tue Jun  6 19:59:48 2023] Launched impl_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.runs/impl_1/runme.log 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// Elapsed time: 85 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bv)
+// [Engine Memory]: 961 MB (+95434kb) [01:02:43]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 76 MB. Current time: 6/6/23 8:01:18 PM IST
+// [Engine Memory]: 1,018 MB (+8986kb) [01:02:47]
+// [Engine Memory]: 1,187 MB (+123730kb) [01:02:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,271 MB. GUI used memory: 76 MB. Current time: 6/6/23 8:01:33 PM IST
+// [Engine Memory]: 1,287 MB (+42515kb) [01:03:02]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,643 MB. GUI used memory: 75 MB. Current time: 6/6/23 8:01:36 PM IST
+// [Engine Memory]: 1,643 MB (+306171kb) [01:03:05]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1938.074 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1938.074 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 2002.746 ; gain = 881.504 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed time: 26 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 105 MB. Current time: 6/6/23 11:02:20 PM IST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 105 MB. Current time: 6/7/23 1:25:05 PM IST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 62656 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ASU_4bit.vhd", 2); // k (j, ch)
+// Elapsed time: 548 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+// PAPropertyPanels.initPanels (TB_MUX_2way_4bit.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_MUX_2way_4bit(Behavioral) (TB_MUX_2way_4bit.vhd)]", 5, true); // B (D, ch) - Node
+// Tcl Message: current_project MUX_2way_4bit 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_MUX_2way_4bit(Behavioral) (TB_MUX_2way_4bit.vhd)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (D, ch)
+selectCodeEditor("ASU_4bit.vhd", 65, 10); // cd (w, ch)
+selectCodeEditor("ASU_4bit.vhd", 65, 10, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "TB_ASU_4bit"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new 
+// Tcl Command: 'file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new'
+// Tcl Message: file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new 
+// Tcl Command: 'file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new'
+// Tcl Command: 'file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new'
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 19 seconds
+// Tcl Command: 'file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new'
+// Tcl Message: file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new 
+// Tcl Message: file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new 
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new 
+// Tcl Message: current_project ASU_4bit 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bv (ch):  Add Simulation Sources  : addNotify
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Command: 'file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new'
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: file mkdir C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new 
+// Tcl Message: file mkdir {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new} 
+// Tcl Message: close [ open {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new/TB_ASU_4bit.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new/TB_ASU_4bit.vhd}} 
+// I (ch): Define Module: addNotify
+dismissDialog("Add Simulation Sources"); // bv (ch)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_ASU_4bit(Behavioral) (TB_ASU_4bit.vhd)]", 10, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_ASU_4bit(Behavioral) (TB_ASU_4bit.vhd)]", 10, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("TB_ASU_4bit.vhd", 2, 47); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 98, 232); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 109, 73); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 131, 181); // cd (w, ch)
+typeControlKey((HResource) null, "TB_MUX_2way_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 328, 126); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ASU_4bit.vhd", 2); // k (j, ch)
+selectCodeEditor("ASU_4bit.vhd", 341, 125); // cd (w, ch)
+typeControlKey((HResource) null, "ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TB_ASU_4bit.vhd", 3); // k (j, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 401, 211); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 272, 212); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 366, 113); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 395, 275); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 353, 263); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 289, 124); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 141, 160); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 141, 160, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 295, 271); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 53, 202); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 56, 227); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 400, 205); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("TB_ASU_4bit.vhd", 352, 217); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 346, 229); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 181, 251); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 144, 270); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 103, 265); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 81, 300); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 220, 282); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 220, 282, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("TB_ASU_4bit.vhd", 452, 298); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 83, 285); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 411, 303); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 81, 267); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 176, 223); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 84, 115); // cd (w, ch)
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 42, 136); // cd (w, ch)
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 205, 87); // cd (w, ch)
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 42, 127); // cd (w, ch)
+selectCodeEditor("TB_MUX_2way_4bit.vhd", 140, 278); // cd (w, ch)
+typeControlKey((HResource) null, "TB_MUX_2way_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 58, 255); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 1, 91); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 126, 98); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 66, 87); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 134, 235); // cd (w, ch)
+// Elapsed time: 39 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 97, 249); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 97, 249); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 97, 249, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 65, 108); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 125, 186); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 61, 187); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 97, 218); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 116, 199); // cd (w, ch)
+// Elapsed time: 56 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 74, 227); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 75, 255); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 75, 250); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 61, 284); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 53, 267); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 126, 283); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 132, 249); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 176, 286); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 180, 232); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 153, 235); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 180, 234); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 236, 318); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 231, 224); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 185, 234); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 283, 313); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 242, 315); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 394, 198); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 109, 79); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 202, 229); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_ASU_4bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 245, 316); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 55, 247); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 139, 246); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 133, 212); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 124, 211); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 132, 146); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 133, 164); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 138, 164); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 139, 194); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 150, 181); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 148, 158); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 125, 165); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 133, 143); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 146, 127); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 132, 196); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 249, 216); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 133, 199); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 146, 179); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 140, 177); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 139, 269); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 169 MB (+500kb) [18:50:50]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TB_ASU_4bit' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_ASU_4bit_behav -key {Behavioral:sim_1:Functional:TB_ASU_4bit} -tclbatch {TB_ASU_4bit.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source TB_ASU_4bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 117 MB. Current time: 6/7/23 1:49:34 PM IST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_ASU_4bit_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2023.668 ; gain = 10.852 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:49:40 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 917, 315); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:49:41 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:49:42 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:49:42 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 581, 339); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:49:43 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:49:43 PM IST
+// Elapsed time: 44 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, A_TB[3:0]]", 0); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, S_TB[3:0]]", 6); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 257, 285); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:47 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:48 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:48 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:49 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:49 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:49 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:50 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:51 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:52 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:52 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:52 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:52 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:50:53 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 45 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 257, 285); // n (o, ch)Waveform: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:51:33 PM IST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TB_ASU_4bit.vhd", 1); // k (j, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 144, 161); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 132, 187); // cd (w, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 130, 179); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("TB_ASU_4bit.vhd", 144, 264); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Elapsed time: 14 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (ch):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj TB_ASU_4bit_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new/TB_ASU_4bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity TB_ASU_4bit 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_ASU_4bit_behav -key {Behavioral:sim_1:Functional:TB_ASU_4bit} -tclbatch {TB_ASU_4bit.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 115 MB. Current time: 6/7/23 1:52:49 PM IST
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source TB_ASU_4bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_ASU_4bit_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2025.582 ; gain = 0.000 
+// 'd' command handler elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:52 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 973, 315); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:56 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:56 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:56 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:56 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:57 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:57 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,725 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:52:57 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 181 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TB_ASU_4bit.vhd", 1); // k (j, ch)
+selectCodeEditor("TB_ASU_4bit.vhd", 141, 127); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// e (ch):  Run Simulation : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/synth/func/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// TclEventType: FLOORPLAN_MODIFY
+// [Engine Memory]: 1,809 MB (+87760kb) [18:57:43]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,809 MB. GUI used memory: 116 MB. Current time: 6/7/23 1:56:15 PM IST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj TB_ASU_4bit_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/synth/func/xsim/TB_ASU_4bit_func_synth.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity ASU_4bit INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new/TB_ASU_4bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity TB_ASU_4bit 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/synth/func/xsim' 
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 89ee2efee1c44723a8e7c08202f4d09f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_ASU_4bit_func_synth xil_defaultlib.TB_ASU_4bit -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/synth/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_ASU_4bit_func_synth -key {Post-Synthesis:sim_1:Functional:TB_ASU_4bit} -tclbatch {TB_ASU_4bit.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,879 MB. GUI used memory: 128 MB. Current time: 6/7/23 1:56:22 PM IST
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source TB_ASU_4bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_ASU_4bit_func_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2197.113 ; gain = 171.531 
+// 'd' command handler elapsed time: 12 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 1:56:26 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 931, 265); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 129 MB. Current time: 6/7/23 1:56:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 129 MB. Current time: 6/7/23 1:56:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 129 MB. Current time: 6/7/23 1:56:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 129 MB. Current time: 6/7/23 1:56:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 1:56:28 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 1:56:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 1:56:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 650, 342); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 1:56:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 1:56:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 70 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1106, 316); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1106, 316); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1106, 316); // n (o, ch)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTab(PAResourceOtoP.PlanAheadTab_TABBED_PANE, (HResource) null, "Behavioral Simulation - Functional - sim_1 - TB_ASU_4bit", 0); // M (aC, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// [GUI Memory]: 181 MB (+3363kb) [18:59:45]
+// Elapsed time: 512 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_FUNCTIONAL, "Run Post-Implementation Functional Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CURRENT_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1106, 316); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1106, 316); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1106, 316); // n (o, ch)Waveform: addNotify
+// TclEventType: FILE_SET_CHANGE
+// e (ch):  Run Simulation : addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: current_sim simulation_2 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: launch_simulation -mode post-implementation -type functional 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-implementation functional simulation in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/impl/func/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj TB_ASU_4bit_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/impl/func/xsim/TB_ASU_4bit_func_impl.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity ASU_4bit INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sim_1/new/TB_ASU_4bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity TB_ASU_4bit 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/impl/func/xsim' 
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 89ee2efee1c44723a8e7c08202f4d09f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_ASU_4bit_func_impl xil_defaultlib.TB_ASU_4bit -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.sim/sim_1/impl/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_ASU_4bit_func_impl -key {Post-Implementation:sim_1:Functional:TB_ASU_4bit} -tclbatch {TB_ASU_4bit.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 134 MB. Current time: 6/7/23 2:06:28 PM IST
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source TB_ASU_4bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_ASU_4bit_func_impl' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2198.246 ; gain = 0.000 
+// 'd' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 135 MB. Current time: 6/7/23 2:06:34 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 864, 250); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 135 MB. Current time: 6/7/23 2:06:37 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 135 MB. Current time: 6/7/23 2:06:37 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 135 MB. Current time: 6/7/23 2:06:37 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 135 MB. Current time: 6/7/23 2:06:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 135 MB. Current time: 6/7/23 2:06:38 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 600, 241); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 134 MB. Current time: 6/7/23 2:06:40 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 134 MB. Current time: 6/7/23 2:06:40 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 192 MB (+2186kb) [19:30:01]
+// Elapsed time: 1450 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // Z (ch)
+// Elapsed time: 10 seconds
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.xpr"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Opening Vivado Project: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, G)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.xpr} 
+// TclEventType: RUN_COMPLETED
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder' 
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: Adder_3bit; location: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// [GUI Memory]: 207 MB (+5616kb) [19:32:42]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Adder_3bit(Behavioral) (TB_Adder_3bit.vhd)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Adder_3bit(Behavioral) (TB_Adder_3bit.vhd)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Adder_3bit(Behavioral) (Adder_3bit.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Adder_3bit(Behavioral) (Adder_3bit.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TB_Adder_3bit.vhd", 1); // k (j, ch)
+// [GUI Memory]: 218 MB (+522kb) [19:34:09]
+// Elapsed time: 175 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Adder_3bit(Behavioral) (Adder_3bit.vhd), FA_0 : FA(Behavioral) (FA.vhd)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Adder_3bit(Behavioral) (Adder_3bit.vhd), FA_0 : FA(Behavioral) (FA.vhd)]", 2, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+// 'c' command handler elapsed time: 5 seconds
+dismissDialog("Remove Sources"); // aF (ch)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sources_1/imports/4-bit Add_Subtract unit/Full Adder/Full_Adder.srcs/sources_1/new/FA.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// aF (ch): Remove Sources: addNotify
+// bv (aF):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sources_1/imports/4-bit Add_Subtract unit/Full Adder/Full_Adder.srcs/sources_1/new/FA.vhd}} 
+dismissDialog("Remove Sources"); // bv (aF)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Adder_3bit(Behavioral) (Adder_3bit.vhd), FA_0 : FA(Behavioral) (FA.vhd)]", 2); // B (D, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HA(Behavioral) (HA.vhd)]", 5, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aF): TRUE
+// Elapsed time: 23 seconds
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", false); // g (Q, aF): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+// 'c' command handler elapsed time: 32 seconds
+dismissDialog("Remove Sources"); // aF (ch)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sources_1/imports/4-bit Add_Subtract unit/Half Adder/Half_Adder.srcs/sources_1/new/HA.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sources_1/imports/4-bit Add_Subtract unit/Half Adder/Half_Adder.srcs/sources_1/new/HA.vhd}} 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 79, 71); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 83, 95); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 263, 87); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 263, 87); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 263, 87); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 260, 87); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 203, 95); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 239, 111); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Adder_3bit.vhd", 2); // k (j, ch)
+selectCodeEditor("Adder_3bit.vhd", 80, 131); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 226, 111); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 148 MB. Current time: 6/7/23 2:36:41 PM IST
+// Elapsed time: 14 seconds
+selectCodeEditor("Adder_3bit.vhd", 27, 212); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Adder_3bit.vhd", 195, 118); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 38, 55); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 154, 47); // cd (w, ch)
+// Elapsed time: 40 seconds
+selectCodeEditor("Adder_3bit.vhd", 106, 245); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Adder_3bit.vhd", 103, 264); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectCodeEditor("Adder_3bit.vhd", 104, 285); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("Adder_3bit.vhd", 171, 262); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 175, 263); // cd (w, ch)
+typeControlKey((HResource) null, "Adder_3bit.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 153, 281); // cd (w, ch)
+typeControlKey((HResource) null, "Adder_3bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 198, 284); // cd (w, ch)
+selectCodeEditor("Adder_3bit.vhd", 198, 284, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Adder_3bit.vhd", 299, 247); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Adder_3bit.vhd", 393, 182); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TB_Adder_3bit.vhd", 1); // k (j, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 162, 42); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 305, 63); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 199, 201); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 55, 180); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 284, 188); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 56, 106); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 58, 148); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 55, 191); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 55, 243); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 56, 299); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 187, 222); // cd (w, ch)
+typeControlKey((HResource) null, "TB_Adder_3bit.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "TB_Adder_3bit.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 231, 264); // cd (w, ch)
+selectCodeEditor("TB_Adder_3bit.vhd", 251, 131); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 139, 300); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 130, 199); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("TB_Adder_3bit.vhd", 138, 247); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// an (ch): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (ch)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: [Wed Jun  7 14:43:18 2023] Launched synth_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Adder_3bit.vhd", 2); // k (j, ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: [Wed Jun  7 14:43:52 2023] Launched impl_1... Run output will be captured here: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.runs/impl_1/runme.log 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 148 MB. Current time: 6/7/23 2:45:02 PM IST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 2366.297 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 2366.297 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dO' command handler elapsed time: 3 seconds
+// Elapsed time: 71 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Open Implemented Design"); // bv (ch)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'TB_Adder_3bit' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj TB_Adder_3bit_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Adder_3bit INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sim_1/new/TB_Adder_3bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity TB_Adder_3bit 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto b96a93caedb2492f89b2e67168c6dd13 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Adder_3bit_behav xil_defaultlib.TB_Adder_3bit -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio Compiling package ieee.std_logic_1164 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Compiling architecture behavioral of entity xil_defaultlib.Adder_3bit [adder_3bit_default] Compiling architecture behavioral of entity xil_defaultlib.tb_adder_3bit Built simulation snapshot TB_Adder_3bit_behav  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/RAMINDU/Desktop/2nd -notrace couldn't read file "C:/Users/RAMINDU/Desktop/2nd": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Jun  7 14:45:20 2023... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_Adder_3bit_behav -key {Behavioral:sim_1:Functional:TB_Adder_3bit} -tclbatch {TB_Adder_3bit.tcl} -view {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/TB_Adder_3bit_behav.wcfg}} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 165 MB. Current time: 6/7/23 2:45:22 PM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/TB_Adder_3bit_behav.wcfg} 
+// Tcl Message: source TB_Adder_3bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Adder_3bit_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2426.117 ; gain = 7.895 
+// 'd' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 166 MB. Current time: 6/7/23 2:45:28 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 813, 227); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 166 MB. Current time: 6/7/23 2:45:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 166 MB. Current time: 6/7/23 2:45:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 166 MB. Current time: 6/7/23 2:45:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 169 MB. Current time: 6/7/23 2:45:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 166 MB. Current time: 6/7/23 2:45:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 172 MB. Current time: 6/7/23 2:45:30 PM IST
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING, "Run Post-Synthesis Timing Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// e (ch):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type functional 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/synth/func/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 165 MB. Current time: 6/7/23 2:46:21 PM IST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj TB_Adder_3bit_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/synth/func/xsim/TB_Adder_3bit_func_synth.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Adder_3bit INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sim_1/new/TB_Adder_3bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity TB_Adder_3bit 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/synth/func/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/synth/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_Adder_3bit_func_synth -key {Post-Synthesis:sim_1:Functional:TB_Adder_3bit} -tclbatch {TB_Adder_3bit.tcl} -view {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/TB_Adder_3bit_behav.wcfg}} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 177 MB. Current time: 6/7/23 2:46:29 PM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: open_wave_config {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/TB_Adder_3bit_behav.wcfg} 
+// Tcl Message: source TB_Adder_3bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Adder_3bit_func_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2586.672 ; gain = 160.555 
+// 'd' command handler elapsed time: 9 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 179 MB. Current time: 6/7/23 2:46:31 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 773, 339); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 179 MB. Current time: 6/7/23 2:46:33 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 179 MB. Current time: 6/7/23 2:46:33 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_TIMING, "Run Post-Implementation Timing Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_TIMING
+// TclEventType: FILE_SET_CHANGE
+// e (ch):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: launch_simulation -mode post-implementation -type timing 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-implementation timing simulation in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/impl/timing/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-20] The target language is set to VHDL, it is not supported for simulation type 'timing', using Verilog instead. 
+// Tcl Message: "xvlog --incr --relax -prj TB_Adder_3bit_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/impl/timing/xsim/TB_Adder_3bit_time_impl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module Adder_3bit INFO: [VRFC 10-311] analyzing module glbl "xvhdl --incr --relax -prj TB_Adder_3bit_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.srcs/sim_1/new/TB_Adder_3bit.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity TB_Adder_3bit 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/impl/timing/xsim' 
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto b96a93caedb2492f89b2e67168c6dd13 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot TB_Adder_3bit_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.TB_Adder_3bit xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.sim/sim_1/impl/timing/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "TB_Adder_3bit_time_impl -key {Post-Implementation:sim_1:Timing:TB_Adder_3bit} -tclbatch {TB_Adder_3bit.tcl} -view {{C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/TB_Adder_3bit_behav.wcfg}} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 183 MB. Current time: 6/7/23 2:47:03 PM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config {C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/TB_Adder_3bit_behav.wcfg} 
+// Tcl Message: source TB_Adder_3bit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Adder_3bit_time_impl' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 2598.285 ; gain = 10.184 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 21 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 183 MB. Current time: 6/7/23 2:47:26 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 844, 185); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 183 MB. Current time: 6/7/23 2:47:27 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 183 MB. Current time: 6/7/23 2:47:27 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 183 MB. Current time: 6/7/23 2:47:27 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 186 MB. Current time: 6/7/23 2:47:27 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 189 MB. Current time: 6/7/23 2:47:27 PM IST
+// Elapsed time: 21 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 960, 168); // n (o, ch)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+// [GUI Memory]: 229 MB (+564kb) [19:54:48]
+// [GUI Memory]: 242 MB (+1061kb) [20:09:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 182 MB. Current time: 6/7/23 3:17:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 180 MB. Current time: 6/7/23 3:47:32 PM IST
+// Elapsed time: 5228 seconds
+closeMainWindow("Adder_3bit - [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/3-bit Adder/Adder_3bit.xpr] - Vivado 2018.1"); // ch
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ch): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: SIMULATION_CURRENT_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 879, 343); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 879, 343); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 879, 343); // n (o, ch)Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: SIMULATION_CURRENT_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 925, 216); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 925, 216); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 925, 216); // n (o, ch)Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// bv (ch):  Close Project : addNotify
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: current_sim simulation_6 
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: current_sim simulation_5 
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 166 MB. Current time: 6/7/23 4:15:10 PM IST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,882 MB. GUI used memory: 192 MB. Current time: 6/7/23 4:15:10 PM IST
+// Engine heap size: 1,882 MB. GUI used memory: 192 MB. Current time: 6/7/23 4:15:10 PM IST
+// 'b' command handler elapsed time: 13 seconds
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_project 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Remove Sources"); // aF (ch)
+dismissDialog("Close Project"); // bv (ch)
+// Elapsed time: 97 seconds
+closeMainWindow("ASU_4bit - [C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.xpr] - Vivado 2018.1"); // ch
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ch): Close Project: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: SIMULATION_CURRENT_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 668, 233); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 668, 233); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 668, 233); // n (o, ch)Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: SIMULATION_CURRENT_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 739, 346); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 739, 346); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 739, 346); // n (o, ch)Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// bv (ch):  Close Project : addNotify
+// Tcl Message: current_sim simulation_4 
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: current_sim simulation_3 
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,882 MB. GUI used memory: 130 MB. Current time: 6/7/23 4:16:57 PM IST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,882 MB. GUI used memory: 155 MB. Current time: 6/7/23 4:16:57 PM IST
+// Engine heap size: 1,882 MB. GUI used memory: 155 MB. Current time: 6/7/23 4:16:57 PM IST
+// 'b' command handler elapsed time: 9 seconds
+// Tcl Message: close_project 
+dismissDialog("Add Sources"); // c (ch)
+dismissDialog("Close Project"); // bv (ch)
+// TclEventType: DESIGN_CLOSE

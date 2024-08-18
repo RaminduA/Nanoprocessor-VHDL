@@ -1,0 +1,32 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Adder+Subtractor/ASU_4bit.srcs/sources_1/new/ASU_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ASU_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Adder V_1/Adder_3bit.srcs/sources_1/new/Adder_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Instruction Decoder/Instruction_Decoder.srcs/sources_1/new/ID.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ID
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 3-bit Multiplexer/MUX_2way_3bit.srcs/sources_1/new/MUX_2way_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2way_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/2-way 4-bit Multiplexer/MUX_2way_4bit.srcs/sources_1/new/MUX_2way_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2way_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/k-way b-bit Multiplexers/8-way 4-bit Multiplexer/MUX_8way_4bit.srcs/sources_1/new/MUX_8way_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8way_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/NP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NP
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/3-bit Program Counter/Program_Counter.srcs/sources_1/new/PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Program ROM/Program_ROM.srcs/sources_1/new/PR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PR
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/RB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Register Bank/Register_Bank.srcs/sources_1/new/Reg_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/7 Segment Display/Display_7_Segment.srcs/sources_1/new/SSD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SSD
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/Nanoprocessor/Slow Clock/Slow_Clock.srcs/sources_1/new/SlwClk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/Nanoprocessor/Nanoprocessor.srcs/sim_1/new/TB_NP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_NP

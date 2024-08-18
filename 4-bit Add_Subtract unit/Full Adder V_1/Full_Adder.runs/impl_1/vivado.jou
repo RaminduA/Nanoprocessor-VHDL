@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  8 04:55:52 2023
+# Process ID: 10228
+# Current directory: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.runs/impl_1
+# Command line: vivado.exe -log FA.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FA.tcl -notrace
+# Log file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.runs/impl_1/FA.vdi
+# Journal file: C:/Users/RAMINDU/Desktop/2nd sem/Computer Organization and Digital Design/Week 10/Lab 9-10/Nanoprocessor/4-bit Add_Subtract unit/Full Adder V_1/Full_Adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FA.tcl -notrace
